@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CryptoPulse | Crypto Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>📈 CryptoPulse</h1>
+        <p>Real-time Cryptocurrency Price Tracker</p>
+    </header>
+
+    <main class="crypto-container">
+        <div class="crypto-card">
+            <h3>Bitcoin (BTC)</h3>
+            <p id="btcPrice">Loading...</p>
+        </div>
+
+        <div class="crypto-card">
+            <h3>Ethereum (ETH)</h3>
+            <p id="ethPrice">Loading...</p>
+        </div>
+
+        <div class="crypto-card">
+            <h3>Dogecoin (DOGE)</h3>
+            <p id="dogePrice">Loading...</p>
+        </div>
+    </main>
+
+    <footer>
+        <button onclick="fetchPrices()">Refresh Prices</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
